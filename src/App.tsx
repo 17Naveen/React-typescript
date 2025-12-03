@@ -5,7 +5,7 @@ import ShoppingCart from "./components/ShoppingCart";
 function App() {
   const [shoppingcart, setShoppingCart] = useState([
     { id: 1, productname: "usb", price: 400 },
-    { id: 2, productname: "ucb", price: 500 },
+    { id: 2, productname: "ucb", price: 500o },
   ]);
 
   const [idCount, setIdCount] = useState(2);
