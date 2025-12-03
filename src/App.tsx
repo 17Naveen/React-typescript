@@ -15,7 +15,7 @@ function App() {
     setShoppingCart((prev) => [
       ...prev,
 
-      { id: newCount, productname: "TV", price: 50000 },
+      { id: newCount, productname: "TV", price: 500000 },
     ]);
 
     setIdCount(newCount);
